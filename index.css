@@ -89,4 +89,22 @@ header {
 	}
 }
 
+#taches_container {
+	max-width: 1400px;
+	margin: auto;
+	background-color: white;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	background-color: rgb(174, 174, 174);
+	text-transform: uprgb(203, 203, 203);
+	padding: 5px;
+}
+
 /*  */
