@@ -12,8 +12,8 @@
 		</header>
 		<main>
 			<div id="input_container">
-				<input type="text" placeholder="Ajouter une tâche à votre liste.." />
-				<button>
+				<input id="input_tache" type="text" placeholder="Ajouter une tâche à votre liste.." />
+				<button onclick="ajoutTache()">
                     <span>Ajouter une tâche</span>
                     <div id="icone_container">
                         <img src="./assets/images/add.svg" alt="Icone d'ajout du bouton">
@@ -23,6 +23,7 @@
 			<div id="taches_container">
                 <h2>Liste de tâches</h2>
                 <ul id="taches">
+                    
                 </ul>
             </div>
 		</main>
