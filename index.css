@@ -16,3 +16,9 @@ header {
 	font-family: Skincake;
 	padding: 10px 0;
 }
+
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 20px;
+	}
+}
