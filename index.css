@@ -9,6 +9,12 @@
 	box-sizing: border-box;
 }
 
+img {
+	width: 100%;
+	height: 100%;
+	filter: invert(100%);
+}
+
 body {
 	background-color: rgb(191, 191, 191);
 }
@@ -45,6 +51,7 @@ header {
 	width: 100%;
 	padding: 5px;
 	border-radius: 3px;
+	border: none;
 }
 
 #input_container input:focus {
@@ -60,6 +67,26 @@ header {
 	padding: 5px;
 	width: 15%;
 	border-radius: 3px;
+}
+
+#icone_container {
+	display: none;
+}
+
+/* #icone_container */
+
+@media screen and (max-width: 480px) {
+	#input_container input {
+		padding: 2px;
+	}
+
+	#icone_container {
+		display: block;
+	}
+
+	button span {
+		display: none;
+	}
 }
 
 /*  */
