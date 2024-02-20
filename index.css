@@ -113,4 +113,11 @@ li {
 	margin-top: 5px;
 }
 
+@media screen and (max-width: 1400px) {
+	#taches_container,
+	#input_container {
+		margin: 0 10px;
+	}
+}
+
 /*  */
