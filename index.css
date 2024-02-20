@@ -69,6 +69,11 @@ header {
 	border-radius: 3px;
 }
 
+#input_container button:hover {
+	cursor: pointer;
+	background-color: #37ab75;
+}
+
 #icone_container {
 	display: none;
 }
@@ -102,9 +107,10 @@ ul {
 }
 
 li {
-	background-color: rgb(174, 174, 174);
+	background-color: rgb(218, 218, 218);
 	text-transform: uprgb(203, 203, 203);
 	padding: 5px;
+	margin-top: 5px;
 }
 
 /*  */
